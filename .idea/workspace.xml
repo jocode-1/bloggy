@@ -4,30 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23c4074f-241b-4f74-8a49-32aff236f0dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/root.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/serve.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/modules/home/html/about.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/modules/home/html/home.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/modules/home/routes/routes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/providers/routes/route.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/bootstrap/serve.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/html/load.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/html/render.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/routing/common.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/routing/routing.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/routing/serve.go" afterDir="false" />
+    <list default="true" id="23c4074f-241b-4f74-8a49-32aff236f0dc" name="Changes" comment="Base Setup">
+      <change afterPath="$PROJECT_DIR$/assets/HMS-300x272.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/providers/view/html.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/static/load.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/modules/home/html/home.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/internal/modules/home/html/home.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/bootstrap/serve.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/bootstrap/serve.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/html/render.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/html/render.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +60,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HP\IdeaProjects\blog\internal\modules\home\html" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\blog\assets" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -106,8 +93,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696226975153</updated>
-      <workItem from="1696226976431" duration="5272000" />
+      <workItem from="1696226976431" duration="7873000" />
     </task>
+    <task id="LOCAL-00001" summary="Base Setup">
+      <created>1696296642778</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696296642778</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +110,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Base Setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base Setup" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
